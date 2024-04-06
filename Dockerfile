@@ -2,7 +2,7 @@
 # latest pytorch requirements: https://pytorch.org/get-started/locally/
 FROM nvidia/cuda:12.1.1-cudnn8-devel-ubuntu22.04
 
-# installs python 3.10.6 at time of writing
+# installs python 3.10.12 at time of writing
 RUN apt-get update -y
 RUN apt-get -y install python3 \ 
     && apt-get -y install python3-pip
